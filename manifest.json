@@ -1,7 +1,7 @@
 {
   "name": "VukaSport - Resultados Desportivos em Tempo Real",
   "short_name": "VukaSport",
-  "description": "Acompanhe resultados desportivos em tempo real, especialmente jogos de Mabote em Moçambique. Receba notificações instantâneas e aceda a estatísticas completas.",
+  "description": "Acompanhe resultados desportivos em tempo real, especialmente jogos de Mabote. Receba notificações instantâneas e aceda a estatísticas completas.",
   "start_url": "https://vukasport.manus.space",
   "scope": "/",
   "display": "standalone",
