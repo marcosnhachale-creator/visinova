@@ -1,0 +1,61 @@
+{
+  "name": "VukaSport - Resultados Desportivos em Tempo Real",
+  "short_name": "VukaSport",
+  "description": "Acompanhe resultados desportivos em tempo real, especialmente jogos de Mabote em Moçambique. Receba notificações instantâneas e aceda a estatísticas completas.",
+  "start_url": "https://vukasport.manus.space",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#28A745",
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["sports", "news"],
+  "keywords": ["VukaSport", "Mabote", "resultados desportivos", "futebol", "Moçambique"],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Resultados em Tempo Real",
+      "short_name": "Resultados",
+      "description": "Veja os últimos resultados de Mabote",
+      "url": "https://vukasport.manus.space/resultados",
+      "icons": [
+        {
+          "src": "/app-icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Notificações",
+      "short_name": "Notificações",
+      "description": "Gerencie suas notificações personalizadas",
+      "url": "https://vukasport.manus.space/notificacoes",
+      "icons": [
+        {
+          "src": "/app-icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

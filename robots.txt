@@ -1,0 +1,30 @@
+# VukaSport - Robots.txt for SEO Optimization
+
+# Allow all bots to crawl the site
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /api/
+Disallow: /temp/
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing-specific rules
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://vukasport.manus.space/sitemap.xml
+Sitemap: https://vukasport.manus.space/sitemap-mobile.xml
+
+# Crawl delay for other bots
+User-agent: *
+Crawl-delay: 1
+Request-rate: 1/10s
