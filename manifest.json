@@ -1,8 +1,8 @@
 {
-  "name": "VukaSport - Resultados Desportivos em Tempo Real",
+  "name": "VukaSport - Acompanhe Todos os Resultados em Tempo Real",
   "short_name": "VukaSport",
-  "description": "Acompanhe resultados desportivos em tempo real, especialmente jogos de Mabote. Receba notificações instantâneas e aceda a estatísticas completas.",
-  "start_url": "https://vukasport.manus.space",
+  "description": "Acompanhe todos os resultados desportivos em tempo real, especialmente jogos de Mabote em Moçambique. Receba notificações instantâneas e aceda a estatísticas completas.",
+  "start_url": "https://vukasport.github.io",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -37,7 +37,7 @@
       "name": "Resultados em Tempo Real",
       "short_name": "Resultados",
       "description": "Veja os últimos resultados de Mabote",
-      "url": "https://vukasport.manus.space/resultados",
+      "url": "https://vukasport.github.io#download",
       "icons": [
         {
           "src": "/app-icon.png",
@@ -49,7 +49,7 @@
       "name": "Notificações",
       "short_name": "Notificações",
       "description": "Gerencie suas notificações personalizadas",
-      "url": "https://vukasport.manus.space/notificacoes",
+      "url": "https://vukasport.github.io#features",
       "icons": [
         {
           "src": "/app-icon.png",
