@@ -167,6 +167,15 @@
         font-weight: 700;
       }
       
+      header .app-icon {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 20px;
+        display: block;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      }
+      
       header .tagline {
         font-size: 1.3em;
         font-weight: 300;
@@ -188,6 +197,29 @@
         margin-bottom: 30px;
         color: #28A745;
         text-align: center;
+      }
+      
+      .features-section {
+        background-color: #000000;
+        padding: 50px 20px;
+        border-radius: 8px;
+      }
+      
+      .features-section h2 {
+        color: white;
+      }
+      
+      .features-section .feature {
+        background-color: #1a1a1a;
+        color: white;
+      }
+      
+      .features-section .feature h3 {
+        color: #ffffff;
+      }
+      
+      .features-section .feature p {
+        color: #e0e0e0;
       }
       
       .features {
@@ -285,6 +317,18 @@
         margin-bottom: 20px;
       }
       
+      .contact-section {
+        background: white;
+        padding: 50px 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+      
+      .contact-section h2 {
+        color: #28A745;
+      }
+      
       footer {
         background-color: #333;
         color: white;
@@ -356,6 +400,7 @@
   <body>
     <!-- Header Section -->
     <header role="banner">
+      <img src="app-icon.png" alt="Ícone da aplicação VukaSport" class="app-icon" />
       <h1>VukaSport</h1>
       <p class="tagline">Acompanhe todos os resultados desportivos em tempo real</p>
     </header>
@@ -363,7 +408,7 @@
     <!-- Main Content -->
     <main role="main">
       <!-- Features Section -->
-      <section aria-label="Funcionalidades principais">
+      <section class="features-section" aria-label="Funcionalidades principais">
         <h2>Por que escolher VukaSport?</h2>
         <div class="features">
           <article class="feature">
@@ -390,6 +435,19 @@
             <h3>🚀 Rápido e Leve</h3>
             <p>App otimizada para funcionar perfeitamente mesmo com conexões lentas. Tamanho reduzido, máximo desempenho.</p>
           </article>
+        </div>
+      </section>
+      
+      <!-- Contact Section -->
+      <section aria-label="Contacte-nos">
+        <div class="contact-section">
+          <h2>Contacte-nos</h2>
+          <p style="font-size: 1.1em; color: #666; margin-bottom: 20px;">Tem dúvidas? Entre em contacto connosco pelo WhatsApp</p>
+          <div class="download-buttons">
+            <a href="https://wa.me/258852092063?text=Olá%20VukaSport" class="btn" target="_blank" rel="noopener noreferrer">
+              💬 Contactar via WhatsApp
+            </a>
+          </div>
         </div>
       </section>
       
