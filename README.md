@@ -12,7 +12,7 @@
 - 🔔 **Notificações Personalizadas** - Receba alertas para os seus times e jogos favoritos
 - 📊 **Estatísticas Completas** - Dados detalhados de jogadores, times e competições
 - 🏆 **Cobertura de Mabote** - Especializada em eventos locais e Moçambola
-- 📱 **Compatível com Todos** - Disponível para Android e iOS
+- 📱 **Compatível com Todos** - Disponível para Android 
 - 🚀 **Rápido e Leve** - Otimizada para funcionar em qualquer conexão
 
 ## Descarregar
@@ -39,12 +39,6 @@
 3. Navegue até ao ficheiro descarregado
 4. Toque para instalar
 5. Permita a instalação de fontes desconhecidas se solicitado
-
-### iOS
-1. Descarregue o ficheiro IPA
-2. Abra com a aplicação de gerenciamento de ficheiros
-3. Selecione "Abrir com" e escolha a aplicação de instalação
-4. Siga as instruções na tela
 
 ## Funcionalidades
 
